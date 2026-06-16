@@ -1,0 +1,38 @@
+table th,
+table td {
+  padding: 0.5rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-field {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 1rem;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.score-count {
+  font-size: 4rem;
+  padding: 2rem;
+  border: 2px solid black;
+}
+
+.btn-success {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+  color: white;
+}
