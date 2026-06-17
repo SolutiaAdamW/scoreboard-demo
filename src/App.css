@@ -1,3 +1,20 @@
+.app {
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+.app.light {
+  --bg: #ffffff;
+  --text: #213547;
+  --border: #213547;
+}
+
+.app.dark {
+  --bg: #1a1a1a;
+  --text: #f5f5f5;
+  --border: #f5f5f5;
+}
+
 table th,
 table td {
   padding: 0.5rem;
@@ -24,7 +41,7 @@ form {
 .score-count {
   font-size: 4rem;
   padding: 2rem;
-  border: 2px solid black;
+  border: 2px solid var(--border);
 }
 
 .btn-success {
